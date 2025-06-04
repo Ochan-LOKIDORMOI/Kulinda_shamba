@@ -1,1 +1,1 @@
-# **🌱Kulinda Shamba: Wildlife Detection System**
+# **🌱Kulinda Shamba: Wildlife Detection System for Farm Protection**
