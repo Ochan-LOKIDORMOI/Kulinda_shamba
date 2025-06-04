@@ -2,8 +2,8 @@
 
 ## **Project Overview:**
 
-The Kulinda Shamba system, which translates from Swahili as *"Protect the Farm,"* is a smart Wildlife intrusion detection system developed to mitigate human–wildlife conflict affecting smallholder farmers in Kenya. 
-This initiative uses transfer learning and image classification to detect specific animals—elephants, monkeys, and buffaloes—that are responsible for frequent crop damage in regions bordering protected wildlife reserves such as the Maasai Mara.
+The Kulinda Shamba system, which translates from Swahili as **"Protect the Farm,"** is a smart Wildlife intrusion detection system developed to mitigate human Wildlife conflict affecting smallholder farmers in Kenya. 
+This initiative uses transfer learning and image classification to detect specific animals elephants, monkeys, and buffaloes that are responsible for frequent crop damage in regions bordering protected wildlife reserves such as the Maasai Mara.
 
 - The goal is to equip small farms with affordable, intelligent monitoring systems that can:
 
