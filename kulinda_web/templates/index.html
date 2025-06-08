@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <h2 class="title">Upload Animal Image for Detection</h2>
+
+  <form id="upload-form" class="upload-form">
+    <input type="file" id="image-input" accept="image/*" required />
+    <button type="submit">🔍 Predict</button>
+  </form>
+
+  <div id="result-wrapper" class="result-wrapper" style="display: none">
+    <div class="image-box">
+      <img id="uploaded-image" src="" alt="Uploaded preview" />
+    </div>
+    <div class="result-box">
+      <h3>✅ Prediction Result</h3>
+      <p><strong>Animal:</strong> <span id="label"></span></p>
+      <p><strong>Confidence:</strong> <span id="confidence"></span></p>
+      <p><strong>Time:</strong> <span id="time"></span></p>
+    </div>
+  </div>
+
+  <div id="error" class="error" style="display: none; color: red"></div>
+</div>
+{% endblock %}
