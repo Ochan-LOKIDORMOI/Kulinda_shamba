@@ -1,0 +1,57 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <h1 class="title">📊 Model Performance</h1>
+  <p>Here are the visualizations of the trained model:</p>
+
+  <!-- Accuracy & Loss Graph -->
+  <img
+    src="{{ url_for('static', filename='accuracy_loss.png') }}"
+    alt="Accuracy and Loss Graphs"
+    width="100%"
+    style="border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)"
+  />
+
+  <!-- Explanation Section -->
+  <div
+    class="result-card"
+    style="
+      margin-top: 30px;
+      text-align: left;
+      padding: 10px;
+      line-height: 0.9;
+      width: 100%;
+    "
+  >
+    <h3 style="margin-bottom: 10px">
+      📈 Explanation of the Above Improved Model Training Graphs
+    </h3>
+    <ul style="margin-left: 20px">
+      <li>
+        The accuracy graph shows both training and validation accuracy rising
+        steadily and remaining close, indicating strong generalization.
+      </li>
+      <li>
+        The loss graph shows a sharp drop in validation loss early on, followed
+        by stability — a sign of effective learning and low overfitting.
+      </li>
+      <li>
+        These curves confirm that the improved model architecture (with Batch
+        Normalization, Dropout, and Augmentation) led to better convergence and
+        overall performance compared to the initial vanilla model.
+      </li>
+    </ul>
+  </div>
+
+  <!-- Confusion Matrix -->
+  <img
+    src="{{ url_for('static', filename='confusion_matrix.png') }}"
+    alt="Confusion Matrix"
+    width="70%"
+    style="
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    "
+  />
+</div>
+{% endblock %}
