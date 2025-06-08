@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kulinda Shamba – Wildlife Detector</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="{{ url_for('index') }}">🏠 Home</a>
+      <a href="{{ url_for('about') }}">📘 About</a>
+      <a href="{{ url_for('graphs') }}">📊 Graphs</a>
+      <a href="{{ url_for('testimonies') }}">🗣️ Testimonies</a>
+    </nav>
+    <!-- Main script for upload/predict -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+    {% block content %}{% endblock %}
+  </body>
+</html>
