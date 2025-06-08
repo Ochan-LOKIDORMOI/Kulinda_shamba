@@ -17,7 +17,9 @@ This initiative uses transfer learning and image classification to detect specif
 
 This system is built for low-bandwidth and off-grid rural environments, enabling communities to improve food security while promoting peaceful human-wildlife coexistence.
 
-[VIDEO DEMO:]() 
+## Video and Figma Demonstration
+
+[VIDEO DEMO:](https://www.youtube.com/watch?v=bJwFsLImkzo)
 
 [FIGMA DESIGN](https://www.figma.com/design/K6ZSBAHsGH6skLbp1GaNKn/Kulinda-Shamba?node-id=0-1&p=f&t=baEVnncDcfRDpecO-0)
 
