@@ -42,4 +42,3 @@ kulinda-web/
 ├── logs.csv
 ├── README.md
 └── requirements.txt
-'''
