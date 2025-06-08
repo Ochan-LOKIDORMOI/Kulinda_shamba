@@ -1,5 +1,7 @@
 # **🌱Kulinda Shamba: Wildlife Detection System for Farm Protection**
 
+![Image](https://github.com/user-attachments/assets/e6e0e585-4185-49f3-82c6-297103f0729c) 
+
 ## **Project Overview:**
 
 The Kulinda Shamba system, which translates from Swahili as **"Protect the Farm,"** is a smart Wildlife intrusion detection system developed to mitigate human Wildlife conflict affecting smallholder farmers in Kenya. 
