@@ -45,4 +45,5 @@ kulinda-web/
 ```
 ### 📷 Screenshots of the   Web interfaces
 
-![Image](https://github.com/user-attachments/assets/f7cf7a9a-4e57-402c-bfab-1c14ac2c89bb)
+![Image](https://github.com/user-attachments/assets/f7cf7a9a-4e57-402c-bfab-1c14ac2c89bb) 
+![Image](https://github.com/user-attachments/assets/a24ec07d-76ce-43b8-9b5f-93d8b0de137a)
