@@ -16,3 +16,25 @@ This initiative uses transfer learning and image classification to detect specif
 - Trigger non-lethal deterrents like LED flashers or buzzing sounds.
 
 This system is built for low-bandwidth and off-grid rural environments, enabling communities to improve food security while promoting peaceful human-wildlife coexistence.
+
+
+kulinda-web/
+├── app.py
+├── static/
+│   ├── style.css
+│   ├── script.js
+│   └── graphs, images
+|
+├── templates/
+│   ├── about.html
+|   ├── base.html
+|   ├── graphs.html
+│   ├── index.html
+│   ├── testimonies.html
+│   
+|├── notebook
+├── model/
+│   └── Kulinda2_model.h5
+├── logs.csv
+├── README.md
+└── requirements.txt
