@@ -23,6 +23,8 @@ This system is built for low-bandwidth and off-grid rural environments, enabling
 
 [FIGMA DESIGN](https://www.figma.com/design/K6ZSBAHsGH6skLbp1GaNKn/Kulinda-Shamba?node-id=0-1&p=f&t=baEVnncDcfRDpecO-0)
 
+[GITHUB](https://github.com/Ochan-LOKIDORMOI/Kulinda_shamba)
+
 
 
 ### 📁 Project Structure
