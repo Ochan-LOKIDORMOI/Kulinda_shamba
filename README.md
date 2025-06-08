@@ -17,9 +17,9 @@ This initiative uses transfer learning and image classification to detect specif
 
 This system is built for low-bandwidth and off-grid rural environments, enabling communities to improve food security while promoting peaceful human-wildlife coexistence.
 
-[VIDEO DEMO:] () 
+[VIDEO DEMO:]() 
 
-[FIGMA DESIGN] (https://www.figma.com/design/K6ZSBAHsGH6skLbp1GaNKn/Kulinda-Shamba?node-id=0-1&p=f&t=baEVnncDcfRDpecO-0)
+[FIGMA DESIGN](https://www.figma.com/design/K6ZSBAHsGH6skLbp1GaNKn/Kulinda-Shamba?node-id=0-1&p=f&t=baEVnncDcfRDpecO-0)
 
 
 
@@ -56,18 +56,23 @@ kulinda-web/
 ## 🧰 Setup Instructions
 
 ### ⚙️ Environment Setup
+
 **1. Clone the Repository:**
+
 `git clone https://github.com/Ochan-LOKIDORMOI/Kulinda_shamba.git
 cd kulinda-shamba`
 
 **2. Create a virtual environment:**
+
 `python -m venv shamba
 shamba\Scripts\activate `
 
 **3. Install requirements:**
+
 `pip install -r requirements.txt`
 
 **4. Start the Flask Server:**
+
 `python app.py`
 
 **Note:** Ensure your Python version is 3.10 or lower. TensorFlow does not support 3.11+ as of now.
