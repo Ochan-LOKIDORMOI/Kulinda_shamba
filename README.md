@@ -20,7 +20,7 @@ This system is built for low-bandwidth and off-grid rural environments, enabling
 
 ### 📁 Project Structure
 
-```text
+```
 kulinda-web/
 ├── app.py
 ├── static/
@@ -42,3 +42,7 @@ kulinda-web/
 ├── logs.csv
 ├── README.md
 └── requirements.txt
+```
+### 📷 Screenshots of the   Web interfaces
+
+![Image](https://github.com/user-attachments/assets/f7cf7a9a-4e57-402c-bfab-1c14ac2c89bb)
