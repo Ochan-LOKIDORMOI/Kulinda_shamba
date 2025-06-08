@@ -94,3 +94,7 @@ cd kulinda-shamba`
 | 🔄 Hosting        | Render / Railway      | 🔧 DIn progress |
 | 🔄 Logging System | MongoDB + CSV         | 🔧 Inprogress |
 
+## **Contributor:**
+
+*Ochan Denmark LOKIDORMOI*
+## **Email:**o.lokidormo@alustudent.com
