@@ -18,23 +18,28 @@ This initiative uses transfer learning and image classification to detect specif
 This system is built for low-bandwidth and off-grid rural environments, enabling communities to improve food security while promoting peaceful human-wildlife coexistence.
 
 
+### 📁 Project Structure
+
+```text
 kulinda-web/
 ├── app.py
 ├── static/
 │   ├── style.css
 │   ├── script.js
-│   └── graphs, images
-|
+│   └── assets/
+│       ├── graphs/
+│       └── images/
 ├── templates/
 │   ├── about.html
-|   ├── base.html
-|   ├── graphs.html
+│   ├── base.html
+│   ├── graphs.html
 │   ├── index.html
 │   ├── testimonies.html
-│   
-|├── notebook
+├── notebook/
+│   └── Kulinda_Shamba_Model_Notebook.ipynb
 ├── model/
 │   └── Kulinda2_model.h5
 ├── logs.csv
 ├── README.md
 └── requirements.txt
+'''
