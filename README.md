@@ -57,6 +57,8 @@ kulinda-web/
 
 ### ⚙️ Environment Setup
 
+[Download kulinda2_model.h5 here](https://drive.google.com/drive/folders/13p9u6Y_oKs8jNbowexg8RLTbVE11zqCz)
+
 **1. Clone the Repository:**
 
 `git clone https://github.com/Ochan-LOKIDORMOI/Kulinda_shamba.git
