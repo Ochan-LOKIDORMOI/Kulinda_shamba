@@ -17,6 +17,11 @@ This initiative uses transfer learning and image classification to detect specif
 
 This system is built for low-bandwidth and off-grid rural environments, enabling communities to improve food security while promoting peaceful human-wildlife coexistence.
 
+[VIDEO DEMO:] () 
+
+[FIGMA DESIGN] (https://www.figma.com/design/K6ZSBAHsGH6skLbp1GaNKn/Kulinda-Shamba?node-id=0-1&p=f&t=baEVnncDcfRDpecO-0)
+
+
 
 ### 📁 Project Structure
 
@@ -48,21 +53,36 @@ kulinda-web/
 ![Image](https://github.com/user-attachments/assets/f7cf7a9a-4e57-402c-bfab-1c14ac2c89bb) 
 ![Image](https://github.com/user-attachments/assets/a24ec07d-76ce-43b8-9b5f-93d8b0de137a)
 
+## 🧰 Setup Instructions
+
+### ⚙️ Environment Setup
+**1. Clone the Repository:**
+`git clone https://github.com/Ochan-LOKIDORMOI/Kulinda_shamba.git
+cd kulinda-shamba`
+
+**2. Create a virtual environment:**
+`python -m venv shamba
+shamba\Scripts\activate `
+
+**3. Install requirements:**
+`pip install -r requirements.txt`
+
+**4. Start the Flask Server:**
+`python app.py`
+
+**Note:** Ensure your Python version is 3.10 or lower. TensorFlow does not support 3.11+ as of now.
 
 
 
 
-
-
-
-
+### 🧱 Deployment Plan
 
 | Module            | Tech Stack            | Status    |
 | ----------------- | --------------------- | --------- |
 | ✅ Model           | TensorFlow (.h5)      | ✔️ Done   |
 | ✅ UI              | HTML/CSS/JS (Flask)   | ✔️ Done   |
-| 🔄 MongoDB        | pymongo, cloud-hosted | 🔧 Apply  |
-| 🔄 SMS Alert      | Twilio / API          | 🔧 Add    |
-| 🔄 Hosting        | Render / Railway      | 🔧 Deploy |
-| 🔄 Logging System | MongoDB + CSV         | 🔧 Expand |
+| 🔄 MongoDB        | pymongo, cloud-hosted | 🔧 inprogress  |
+| 🔄 SMS Alert      | Twilio / API          | 🔧 Inprogress   |
+| 🔄 Hosting        | Render / Railway      | 🔧 DIn progress |
+| 🔄 Logging System | MongoDB + CSV         | 🔧 Inprogress |
 
