@@ -64,8 +64,9 @@ cd kulinda-shamba`
 
 **2. Create a virtual environment:**
 
-`python -m venv shamba
-shamba\Scripts\activate `
+`python -m venv shamba`
+
+`shamba\Scripts\activate `
 
 **3. Install requirements:**
 
