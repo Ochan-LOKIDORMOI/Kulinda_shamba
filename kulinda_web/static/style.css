@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f6fefc;
+  color: #333;
+}
+
+.navbar {
+  background-color: #2f855a;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.navbar a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.title {
+  color: #2f855a;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.upload-form input[type="file"] {
+  display: block;
+  margin: 10px auto;
+}
+
+.upload-form .btn,
+.upload-form button {
+  background-color: #2f855a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.upload-form .btn:hover,
+.upload-form button:hover {
+  background-color: #276749;
+}
+
+.main-content,
+#result-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.image-preview img,
+#uploaded-image {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.result-card,
+#result {
+  background: #e6fffa;
+  border-left: 6px solid #2c7a7b;
+  padding: 20px;
+  text-align: left;
+  max-width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-size: 16px;
+}
+
+.result-card h3,
+#result h3 {
+  margin-top: 0;
+  color: #22543d;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+.testimony-card {
+  background: #fefcbf;
+  border-left: 5px solid #ecc94b;
+  padding: 15px 20px;
+  margin-top: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
